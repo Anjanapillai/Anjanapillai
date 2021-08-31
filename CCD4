@@ -74,7 +74,7 @@ gen_level_4 <- function(x1, y1, x2, y2, x3, y3, x4, y4) {
     	 0,	 0,	 0,	 0,	
      0,	 0,	 0,	 0
     
-  ), nrow = 30, ncol = 3, byrow = TRUE)
+  ), nrow = 30, ncol = 4 , byrow = TRUE)
   run <- as.data.frame(c(1:30))
   obs <- as.data.frame(matrix(0, 30, 1))
   
